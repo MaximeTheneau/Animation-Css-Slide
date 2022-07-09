@@ -1,0 +1,110 @@
+h1{
+    text-align: center;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+.animation-casserol{  
+    background: url(./images/casserol.png) no-repeat;
+    padding: 70rem;
+    position: fixed;
+    top: 40%;
+    transform: translateX(66%);
+    animation: moveCup 40s linear infinite;
+}
+.animation-fourchette{  
+    background: url(./images/fourchette.png) no-repeat;
+    padding: 70rem;
+    position: fixed;
+    top: 60%;
+    transform: translateX(66%);
+    animation: moveCup 4s linear infinite;
+}
+.animation-fouet{  
+    background: url(./images/fouet.png) no-repeat;
+    padding: 15rem;
+    position: fixed;
+    top: 2%;
+    transform: translateX(66%);
+    animation: moveCup 20s linear infinite;
+}
+.animation-verre{  
+    background: url(./images/cuisse.png) no-repeat;
+    padding: 100%;
+    position: fixed;
+    top: 50%;
+    transform: translateX(66%);
+    animation: moveCup 30s linear infinite;
+}
+.animation-cuisse{  
+    background: url(./images/verre.png) no-repeat;
+    padding: 100%;
+    position: fixed;
+    top: 75%;
+    transform: translateX(66%);
+    animation: moveCup 20s linear infinite;;
+}
+.animation-spatule{  
+    background: url(./images/spatule.png) no-repeat;
+    padding: 100%;
+    position: fixed;
+    top: 10%;
+    transform: translateX(66%);
+    animation: moveCup 7s linear infinite;
+}
+.animation-rouleau{  
+    background: url(./images/rouleau.png) no-repeat;
+    padding: 100%;
+    position: fixed;
+    top: 10%;
+    transform: translateX(66%);
+    animation: moveCup 10s linear infinite;
+}
+.animation-bouteille{
+    padding: 100%;
+    position: fixed;
+    top: 20%;  
+    background: url(./images/bouteille.png) no-repeat;
+    transform: translateX(66%);
+    animation: moveCup 25s linear infinite;
+}
+.animation-gant{
+    padding: 100%;
+    position: fixed;
+    top: 50%;
+    background: url(./images/gant.png) no-repeat;
+    transform: translateX(66%);
+    animation: moveCup 15s linear infinite;
+}
+
+.animation-theiere{
+    padding: 100%;
+    position: fixed;
+    top: 30%;
+    background: url(./images/theiere.png) no-repeat;
+    transform: translateX(66%);
+    animation: moveCup 20s linear infinite;
+}
+.animation-passoire{
+    padding: 100%;
+    position: fixed;
+    top: 20%;
+    background: url(./images/passoire.png) no-repeat;
+    transform: translateX(66%);
+    animation: moveCup 5s linear infinite;
+}
+.animation-louche{
+    padding: 100%;
+    position: fixed;
+    top: 70%;
+    background: url(./images/louche.png) no-repeat;
+    transform: translateX(66%);
+    animation: moveCup 12s linear infinite;
+}
+@keyframes moveCup {
+    100% { 
+      transform: translateX(-66.6666%);  
+    }
+  }
+  
