@@ -2,131 +2,107 @@ body{
     height: 100vh;
     overflow: hidden;
     z-index: 0;
+    color: rgba(56, 56, 56, 0.494);
 }
-.animation-casserol{  
-    background: url(./images/casserol.png) no-repeat;
+.icon-stainer{
     position: fixed;
     top: 44%;
-    width: 278px;
-    height: 218px;
+    font-size: 10rem;
     animation: 
       moveCup 30s linear infinite,
       spinner 8s linear infinite;
 }
-.animation-fourchette{  
-    background: url(./images/fourchette.png) no-repeat;
+.icon-rolls{
     position: fixed;
     top: 60%;
-    position: fixed;
-    top: 67%;
-    width: 38px;
-    height: 158px;
+    font-size: 15em;
     animation: 
       moveCup 3s linear infinite,
       spinner 1s linear infinite;
 }
-.animation-fouet{  
-    background: url(./images/fouet.png) no-repeat;
-    position: fixed;
-    top: 2%;
-    width: 100px;
-    height: 1024px;
-    animation: 
-      moveCup 14s linear infinite;
-}
-.animation-verre{  
-    background: url(./images/cuisse.png) no-repeat;
-    position: fixed;
-    top: 47%;
-    width: 118px;
-    height: 234px;
-    animation: 
-      moveCup 14s linear infinite,
-      spinner 11s linear infinite;
-}
-.animation-cuisse{  
-    background: url(./images/verre.png) no-repeat;
-    position: fixed;
-    top: 67%;
-    width: 103px;
-    height: 177px;
-    animation: 
-      moveCup 7s linear infinite,
-      spinner 2s linear infinite;
-}
-.animation-spatule{  
-    background: url(./images/spatule.png) no-repeat;
-    position: fixed;
-    top: 60%;
-    width: 350px;
-    height: 353px;
-    animation: 
-      moveCup 7s linear infinite,
-      spinner 20s linear infinite;
-}
-.animation-rouleau{  
-    background: url(./images/rouleau.png) no-repeat;
-    position: fixed;
-    width: 350px;
-    height: 60px;
-    top: 10%;
-    animation: 
-      moveCup 10s linear infinite,
-      spinner 20s linear infinite;
-}
-.animation-bouteille{
-    position: fixed;
-    top: 20%;
-    width: 90px;
-    height: 290px;
-    background: url(./images/bouteille.png) no-repeat;
-    animation: 
-    moveCup 2s linear infinite,
+.icon-ladle{
+  position: fixed;
+  top: 10%;
+  font-size: 12em;
+  animation: 
+    moveCup 3s linear infinite,
     spinner 1s linear infinite;
 }
-.animation-gant{
-    position: fixed;
-    width: 190px;
-    height: 190px;
-    top: 0%;
-    background: url(./images/gant.png) no-repeat;
-    animation: 
-        moveCup 12s linear infinite,
-        spinner 0.5s linear infinite;
+.icon-whisk{  
+  position: fixed;
+  top: 42%;
+  font-size: 2em;
+  animation: 
+    moveCup 12s linear infinite,
+    spinner 1s linear infinite;
 }
-.animation-theiere{
-    position: fixed;
-    width: 280px;
-    height: 280px;
-    top: 30%;
-    background: url(./images/theiere.png) no-repeat;
-    animation: 
-    moveCup 20s linear infinite,
-    spinner 15s linear infinite;
+.icon-glass{  
+  position: fixed;
+  top: 52%;
+  font-size: 5em;
+  animation: 
+    moveCup 4.2s linear infinite,
+    spinner 2s linear infinite;
 }
-.animation-passoire{
-    width: 186px;
-    height: 182px;
-    position: fixed;
-    top: 20%;
-    background: url(./images/passoire.png) no-repeat;
-    animation: 
-        moveCup 5s linear infinite,
-        spinner 1s linear infinite;
+.icon-bottle{  
+  position: fixed;
+  top: 0%;
+  font-size: 15em;
+  animation: 
+    moveCup 10s linear infinite,
+    spinner 5s linear infinite;
 }
-.animation-louche{
-    position: fixed;
-    top: 70%;
-    background: url(./images/louche.png) no-repeat;
-    animation:
-      moveCup 2s linear infinite,
-      spinner 1s linear infinite;
-    width: 461px;
-    height: 129px;
+.icon-fork{  
+  position: fixed;
+  top: 34%;
+  font-size: 2em;
+  animation: 
+    moveCup 3s linear infinite,
+    spinner 1s linear infinite;
+}
+.icon-teapot{
+  position: fixed;
+  top: 6%;
+  font-size: 9em;
+  animation: 
+    moveCup 9s linear infinite,
+    spinner 5s linear infinite;
+}
+.icon-glove{
+  position: fixed;
+  top: 19%;
+  font-size: 5em;
+  animation: 
+    moveCup 7s linear infinite,
+    spinner 1s linear infinite;
+}
+.icon-chicken{
+  position: fixed;
+  top: 60%;
+  font-size: 5em;
+  animation: 
+    moveCup 15s linear infinite,
+    spinner 6s linear infinite;
+}
+.icon-spatula{
+  position: fixed;
+  top: 33%;
+  font-size: 11em;
+  animation: 
+    moveCup 5s linear infinite,
+    spinner 3.3s linear infinite;
+}
+.icon-pan{
+  position: fixed;
+  top: 13%;
+  font-size: 11em;
+  animation: 
+    moveCup 5s linear infinite,
+    spinner 3.3s linear infinite;
 }
 @keyframes moveCup {
     0%{
-      left: -50%;
+      left: -30%;
     }
     100% { 
       left: 100%;
